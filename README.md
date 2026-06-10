@@ -1,46 +1,49 @@
 # HTML Practice Collection
 
-A curated HTML workspace for hands-on web development practice. This repository contains sample pages, styling, semantic markup exercises, and guided practice examples organized by day.
+A curated HTML workspace for hands-on web development practice. This repository contains sample pages, styling, semantic markup exercises, and guided practice examples organized by topic.
 
 ---
 
 ## 🌟 Overview
 
-This workspace showcases HTML learning exercises across multiple practice sets:
+This workspace showcases HTML learning exercises across three practice sets:
 
-- `Day_1/` — Basic HTML structure, multimedia embedding, tables, forms, and CSS styling.
-- `Day_2/` — Personal profile demo page with text formatting and simple HTML content.
-- `SelfPracticeDay2/` — Focused semantic markup practice, heading/tag examples, and question-based HTML exercises.
+- `html-basics/` — Basic HTML structure, multimedia embedding, tables, forms, and foundational styling.
+- `html-profile/` — Personal profile demo page with headings, lists, tables, and practical content formatting.
+- `semantic-html-practice/` — Semantic markup exercises, heading examples, inline element practice, and question-based HTML drills.
 
 ---
 
 ## 📁 Project Structure
 
-### Day_1
+### html-basics
 - `index.html` — HTML demonstration file with audio, table markup, and commented examples.
-- `contactme.html` — Contact page skeleton for form or link examples.
-- `page.html` — Additional HTML layout practice.
-- `Resume.html` — Resume-style page template.
-- `style.css` — Shared stylesheet for page styling.
-- `audio.mp3` — Sample audio file embedded in `index.html`.
-- `video.mp4` — Sample video file for media playback experiments.
-- `profiel.jpeg` — Profile image used in page designs.
+- `contact.html` — Contact page skeleton for form or link examples.
+- `layout-example.html` — Additional layout practice page.
+- `resume.html` — Resume-style page template.
+- `styles.css` — Shared stylesheet for basic page styling.
+- `sample-audio.mp3` — Sample audio file embedded in `index.html`.
+- `sample-video.mp4` — Sample video file for media playback experiments.
+- `profile.jpg` — Profile image used in page designs.
 
-### Day_2
-- `index.html` — Introduction page highlighting personal details and basic HTML formatting.
-- `Practice1.html` — Additional HTML practice page.
-- `style.css` — CSS file for Day 2 page styling.
+### html-profile
+- `index.html` — Personal profile demo page with formatted text, lists, and tables.
+- `profile-practice.html` — Additional profile practice page.
+- `styles.css` — Profile section stylesheet.
 
-### SelfPracticeDay2
-- `index.html` — Main practice page with HTML structure and content examples.
-- `HeadingTags.html` — Heading tag usage examples.
-- `SemanticMarkup.html` — Semantic HTML element practice.
-- `spanelement.html` — Inline element example using `span`.
-- `sub&sup.html` — Subscript and superscript markup practice.
+### semantic-html-practice
+- `index.html` — Main semantic HTML practice page.
+- `heading-tags.html` — Heading tag usage examples.
+- `semantic-markup.html` — Semantic HTML element practice.
+- `span-element.html` — Inline element example using `span`.
+- `subscript-superscript.html` — Subscript and superscript markup practice.
+- `emmet-practice.html` — Emmet abbreviation examples and shortcuts.
+- `html-entities.html` — HTML entities and special character practice.
 - `questions/`
-  - `q1.html` — Question-based practice page 1.
-  - `Q2.HTML` — Question-based practice page 2.
-  - `q3.html` — Question-based practice page 3.
+  - `question-1.html` — Question-based practice page 1.
+  - `question-2.html` — Question-based practice page 2.
+  - `question-3.html` — Question-based practice page 3.
+  - `question-4.html` — Question-based practice page 4.
 
 ---
 
@@ -60,7 +63,7 @@ This workspace showcases HTML learning exercises across multiple practice sets:
 
 1. Open any `index.html` file in a browser.
 2. Review the markup and explore the page structure.
-3. Edit content or styling in the relevant `style.css` file to customize the appearance.
+3. Edit content or styling in the relevant `styles.css` file to customize the appearance.
 4. Refresh the browser to see updated results.
 
 ---
@@ -68,9 +71,9 @@ This workspace showcases HTML learning exercises across multiple practice sets:
 ## 💡 Tips for Improvement
 
 - Add navigation links between pages to create a small multi-page site.
-- Enhance `Resume.html` with responsive layout and polished styling.
-- Improve semantic structure in `SelfPracticeDay2` pages with more descriptive tags.
-- Add a contact form to `contactme.html` and validate inputs with HTML attributes.
+- Enhance `resume.html` with responsive layout and polished styling.
+- Improve semantic structure in `semantic-html-practice` pages with more descriptive tags.
+- Add a contact form to `contact.html` and validate inputs with HTML attributes.
 
 ---
 
