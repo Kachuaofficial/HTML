@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    color: #000000;
+    background-color: rgb(20, 255, 239);
+}
+
+body {
+    background-color: rgb(255, 240, 25);
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 32px;
+    height: auto;
+    padding: 20px;
+}
