@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(221, 219, 216);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.email{
+    color: black;
+    border-top-color: beige;
+}
+
+img{
+    border-radius: 32px;
+    border-width: 10px;
+}
+
+.grid-container{
+    display: flex;
+}
+button {
+    height: 30px;
+    width: flex;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 30%;
+}
+audio {
+    margin-top: 20px;
+    width: 100%;
+    color: #333;
+    box-shadow: #3388ff;
+}
+
+table {
+    color: rgb(0, 0, 0);
+    border-radius: 32%;
+    border-color: bisque;
+    stroke-width: 20%;
+}
