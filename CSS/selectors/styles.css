@@ -1,0 +1,27 @@
+
+/* Element Selector */
+
+h1 {
+    color: red;
+}
+
+/* Universal Selector use with asterisk * */
+
+* {
+    font-family:  Geneva;
+}
+
+/* id selector */
+
+#login {
+    background-color: #fff;
+}
+
+#signup {
+    background-color: #fff;
+}
+
+/* class selector */
+.a {
+    color: blue;
+}
