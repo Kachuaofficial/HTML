@@ -1,0 +1,123 @@
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.move{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    animation: moveBox 3s infinite;
+
+
+    
+}
+
+@keyframes moveBox {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(200px);
+    }
+    
+}
+
+
+
+@keyframes colorChange {
+    from{
+        background-color: blue;
+    } to{
+        background-color: orange;
+    }
+    
+}
+.colorChnge{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px 30px;
+    color: white;
+    border-radius: 10px;
+
+    gap: 30px;
+    animation: colorChange 1s  ease-in-out infinite;
+
+
+}
+
+
+.rotatebox{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    animation: rotateme 0.01s linear infinite;
+}
+@keyframes rotateme {
+    from{
+        transform: rotateX(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+.bounce{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    animation: bounceme 3s infinite;
+}
+@keyframes bounceme {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+         transform: translateY(-80px);
+    }
+
+    100%{
+         transform: translateY(0);
+    }
+    
+    
+}
+
+.fade{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 50px 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    animation: fademe 3s infinite;
+}
+@keyframes fademe {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1 ;
+    }
+    
+}

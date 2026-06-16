@@ -1,0 +1,57 @@
+.face {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 0, 0.867);
+    border-radius: 50%;
+    border: 3px;
+    border-style: dotted;
+    box-shadow: 2px 4px 10px;
+    animation: infinite;
+    transition: 1s ease;
+}
+
+.face:hover {
+    box-shadow: 8px 16px 30px red;
+}
+
+.mouth {
+    background-color: brown;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    border-style: solid;
+    border-radius: 10px 10px 50px 50px;
+}
+
+.eyeFrame {
+    height: 60px;
+    width: 200px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+
+    border-radius: 50px 50px;
+
+
+}
+
+.leftEye {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+
+    background-color: black;
+    border-radius: 50px 50px;
+}
+
+
+.rightEye {
+    height: 60px;
+    width: 60px;
+    left: 150px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50px 50px;
+}
